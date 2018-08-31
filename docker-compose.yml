@@ -1,0 +1,36 @@
+# https://medium.com/statuscode/dockerising-a-node-js-and-mongodb-app-d22047e2806f
+version: "1"
+services:
+  web:
+    container_name: personaai
+    # pull the image from registry
+    image: khaiphong/personaai:latest
+    volumes:
+      - /khaiphong/personadb
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /tmp/.docker.xauth:/tmp/.docker.xauth
+    ## 
+      # https://blog.usejournal.com/machine-learning-environment-setup-within-10min-515c34ee33f3
+      # privileged: true
+      # environment: 
+      #    - DISPLAY=$DISPLAY
+      # devices:
+      # - /dev/video0:/dev/video0
+    ##
+    deploy:
+      replicas: 2
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    # share port 8080 via a load-balanced network called webnet
+    ports:
+      - "8080:8080"
+    networks:
+      - webnet
+# use default webnet settings (which is a load-balanced overlay network)
+networks:
+  webnet:
+
