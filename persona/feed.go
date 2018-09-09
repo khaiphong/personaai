@@ -19,6 +19,7 @@ limitations under the License.
 https://engineering.linkedin.com/blog/2016/03/followfeed--linkedin-s-feed-made-faster-and-smarter
 https://hackernoon.com/stream-go-news-feeds-for-over-300-million-end-users-b227614cf32f
 https://getstream.io/blog/how-we-test-go-at-stream/
+https://www.youtube.com/watch?v=E8-e-3fRHBw - Managing Data in Microservices, applying AI.
 */
 
 package personaai
