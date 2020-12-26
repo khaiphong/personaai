@@ -1,0 +1,131 @@
+.navbar {
+  background:#256ce1;
+  height: 36px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-bars {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  background: none;
+}
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 14px;
+  width: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+}
+.toggle-button__line {
+  width: 100%;
+  height: 2px;
+  background: white;
+}
+.navbar_logo a {
+  margin-left: 0.5rem;
+  color: rgb(180, 126, 9);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.navbar_logo a:hover,
+.navbar_logo a:active {
+  color:  white;
+  text-decoration: none;
+}
+.spacer {
+  flex: 1;
+}
+.navbar_navigation-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar_navigation-items li {
+  padding: 0 0.1rem;
+}
+.navbar_navigation-items a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+.navbar_navigation-items a:hover,
+.navbar_navigation-items a:active {
+  color:  rgb(180, 126, 9);
+  text-decoration: none;
+}
+
+.nav-menu {
+  background-color:#256ce1;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  right: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  background:#256ce1;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  list-style: none;
+  height: 50px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #1a83ff;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color:#256ce1;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+span {
+  margin-left: 0px;
+}
