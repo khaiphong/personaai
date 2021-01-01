@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="navbar_navigation-items">
             <ul>
               <li><a href="/">
-                Alert from injected service less than 80 characters
+                Alert from injected service will not be more than 80 characters
               </a></li>
             </ul>
           </div>
