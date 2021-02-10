@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="navbar_navigation-items">
             <ul>
               <li><a href="/">
-                Alert from injected service will not be more than 80 characters
+                Alert less than 40 characters
               </a></li>
             </ul>
           </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
           <ul className='nav-menu-items' onClick={showSidebar}>
             <li className='navbar-toggle'>
               <Link to="#" className="menu-bars">
-                <button  >
+                <button>
                   X
                 </button>
               </Link>

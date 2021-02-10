@@ -1,6 +1,6 @@
 {
-  "short_name": "PersonaAI",
-  "name": "Injected Services to EIP",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
