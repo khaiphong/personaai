@@ -3,31 +3,41 @@ export const SidebarData = [
   {
     title: 'About',
     path: '/',
-    icon: '',
-    cName: 'nav-text'
+    icon: ''
   },
   {
     title: 'Dashboard',
     path: '/dashboard',
-    icon: '',
-    cName: 'nav-text'
+    icon: ''
   },
   {
     title: 'Chat',
     path: '/chat',
-    icon: '',
-    cName: 'nav-text'
+    icon: ''
   },
   {
     title: 'Support',
     path: '/support',
-    icon: '',
-    cName: 'nav-text'
+    icon: ''
   },
   {
     title: 'Services',
     path: '/services',
     icon: '',
-    cName: 'nav-text'
+    iconClosed: '',
+    iconOpened: '',
+
+    subNav: [
+      {
+        title: 'Directories',
+        path: '/services/directories',
+        icon: ''
+      },
+      {
+        title: 'AllowNotifications',
+        path: '/services/allowNotifications',
+        icon: ''
+      }
+    ]
   }
 ];
