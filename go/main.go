@@ -9,9 +9,8 @@
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-
-PersonaDB is a microservice to turn Badger() embedded db into a custom personalized data store via FP (functional programming), plus value-added in GitOp and Prometheus time series. The underlying BadgerDB is (1) wrapped with distriuted graph db in operation, Node-Solid-Server for pod (personal online data) sharing CD/CI via https://github.com/google/ko for executable image.
-Ref: fetching data Storing data in Dgraph: https://dgraph.io/blog/post/building-todo-list-react-dgraph/
+  
+KP-SIS / Chatham-House-Rule Strategic Intelligence Service - One-on-One - riding on KP group intelligence, and a catch-all custom-made installation and maintenance of (1) Secure distributed data centres, (2) OmHub private networking, (3) custom-made Mu, MuHub, OmHub, and (4) Kubernetes scaling world wide.
 */
 
 package main
@@ -37,6 +36,19 @@ func main() {
 // go     run main.go run <cmd> <args>
 
 func run() {
-  fmt.Printf("Running %v as user %d in process %d\n", os.Args[2:], os.Geteuid(), os.Getpid())
+  fmt.Printf("Container activation to MuHub and OmHub")
 }
+
+func NeuroPhy() {
+  fmt.Printf("Neuro and physical services")
+}
+
+func PsyFibo() {
+  fmt.Printf("Psychological and Fibonacci services")
+}
+
+func SIS() {
+  fmt.Printf("KP-SIS / Strategic Intelligence Service")
+}
+
 
